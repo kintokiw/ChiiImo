@@ -37,6 +37,23 @@ body * {
   color: var(--text-color);
 }
 
+.github-corner-icon {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  
+  font-size: 40px;
+  color: var(--text-color);
+  opacity: 0.8;
+  
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.github-corner-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
 canvas {
   position: fixed;
   width: 100%;
